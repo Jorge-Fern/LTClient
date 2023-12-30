@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8efd6b2-3c6c-436b-8da9-f419d628e724" name="Changes" comment="final changes for first release" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="package-info" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ZuX5R8wVTPzh47C9AmzJedhEoz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.LTClientTest.check.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LTClientTest.checkAsync.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LTClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:add-third-party].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:aggregate-add-third-party].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:aggregate-third-party-report].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:download-licenses].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:license-list].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:remove-file-header].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:third-party-report].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:update-file-header].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:update-project-license].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.LTClient [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jorgegoncalves/IdeaProjects/LTClient/src/main/java/com&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jfern.ltclient" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LTClientTest.checkAsync">
+    <configuration name="LTClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LTClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jfern.ltclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jfern.ltclient" />
+      <option name="MAIN_CLASS_NAME" value="com.jfern.ltclient.LTClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LTClientTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LTClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jfern.ltclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jfern.ltclient" />
+      <option name="MAIN_CLASS_NAME" value="com.jfern.ltclient.LTClientTest" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LTClientTest.checkAsync" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LTClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jfern.ltclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jfern.ltclient" />
+      <option name="MAIN_CLASS_NAME" value="com.jfern.ltclient.LTClientTest" />
+      <option name="METHOD_NAME" value="checkAsync" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LTClientTest.checkAsync" />
+        <item itemvalue="JUnit.LTClientTest.check" />
+        <item itemvalue="JUnit.LTClientTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8efd6b2-3c6c-436b-8da9-f419d628e724" name="Changes" comment="" />
+      <created>1703272756234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703272756234</updated>
+      <workItem from="1703272757323" duration="1125000" />
+      <workItem from="1703586262827" duration="732000" />
+      <workItem from="1703587565080" duration="1931000" />
+      <workItem from="1703618144361" duration="264000" />
+      <workItem from="1703850280821" duration="13968000" />
+      <workItem from="1703896160164" duration="3700000" />
+      <workItem from="1703962487731" duration="2446000" />
+      <workItem from="1703970663052" duration="1080000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial project upload">
+      <option name="closed" value="true" />
+      <created>1703273862790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703273862790</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added missing parameters and documentation&#10;&#10;code cleanup">
+      <option name="closed" value="true" />
+      <created>1703589487455</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703589487455</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated todo list">
+      <option name="closed" value="true" />
+      <created>1703618379088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703618379088</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added licence info">
+      <option name="closed" value="true" />
+      <created>1703853395730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703853395730</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added unit tests">
+      <option name="closed" value="true" />
+      <created>1703861889824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703861889824</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added some plugins needed for deploying to maven">
+      <option name="closed" value="true" />
+      <created>1703963602490</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703963602490</updated>
+    </task>
+    <task id="LOCAL-00007" summary="final changes for first release">
+      <option name="closed" value="true" />
+      <created>1703971107707</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703971107707</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial project upload" />
+    <MESSAGE value="added missing parameters and documentation&#10;&#10;code cleanup" />
+    <MESSAGE value="updated todo list" />
+    <MESSAGE value="added licence info" />
+    <MESSAGE value="added unit tests" />
+    <MESSAGE value="added some plugins needed for deploying to maven" />
+    <MESSAGE value="final changes for first release" />
+    <option name="LAST_COMMIT_MESSAGE" value="final changes for first release" />
+  </component>
+</project>
