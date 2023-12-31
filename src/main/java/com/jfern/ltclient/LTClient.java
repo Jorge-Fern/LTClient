@@ -249,6 +249,11 @@ public class LTClient {
     }
 
 
+    /**
+     * Parameters must sent in x-www-form-urlencoded, this function encodes all non NULL params
+     *
+     * @return String with the encoded params
+     */
     private String getFormData(String language, String text, String data, String username, String apiKey, String dicts, String motherTongue, String preferedVariants, String enabledRules, String disabledRules, String enabledCategories, String disabledCategries, Boolean enabledOnly, String level) {
         String formData = URLEncoder.encode("language", StandardCharsets.UTF_8) + "=" + URLEncoder.encode(language, StandardCharsets.UTF_8);
 

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efd6b2-3c6c-436b-8da9-f419d628e724" name="Changes" comment="final changes for first release" />
+    <list default="true" id="d8efd6b2-3c6c-436b-8da9-f419d628e724" name="Changes" comment="final changes for first release">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jfern/ltclient/LTClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jfern/ltclient/LTClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jfern/ltclient/LTClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jfern/ltclient/LTClientTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +38,11 @@
         <option name="downloadSourcesAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="release" />
+      </list>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -47,48 +57,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.LTClientTest.check.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LTClientTest.checkAsync.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LTClientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [clean,compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:add-third-party].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:aggregate-add-third-party].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:aggregate-third-party-report].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:download-licenses].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:license-list].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:remove-file-header].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:third-party-report].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:update-file-header].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:update-project-license].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.LTClient [verify].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jorgegoncalves/IdeaProjects/LTClient/src/main/java/com&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.LTClientTest.check.executor": "Run",
+    "JUnit.LTClientTest.checkAsync.executor": "Run",
+    "JUnit.LTClientTest.executor": "Run",
+    "Maven.LTClient [clean,compile].executor": "Run",
+    "Maven.LTClient [clean].executor": "Run",
+    "Maven.LTClient [deploy].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:add-third-party].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:aggregate-add-third-party].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:aggregate-third-party-report].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:download-licenses].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:license-list].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:remove-file-header].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:third-party-report].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:update-file-header].executor": "Run",
+    "Maven.LTClient [org.codehaus.mojo:license-maven-plugin:2.3.0:update-project-license].executor": "Run",
+    "Maven.LTClient [package].executor": "Run",
+    "Maven.LTClient [test].executor": "Run",
+    "Maven.LTClient [validate].executor": "Run",
+    "Maven.LTClient [verify].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jorgegoncalves/IdeaProjects/LTClient/src/main/java/com",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com" />
@@ -109,7 +119,7 @@
       <command value="mvn clean compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LTClientTest.checkAsync">
+  <component name="RunManager" selected="JUnit.LTClientTest">
     <configuration name="LTClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LTClient" />
       <extension name="coverage">
@@ -159,11 +169,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LTClientTest" />
         <item itemvalue="JUnit.LTClientTest.checkAsync" />
         <item itemvalue="JUnit.LTClientTest.check" />
-        <item itemvalue="JUnit.LTClientTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-temurin-17.0.9-f644763e9732-9d029893" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -180,7 +197,9 @@
       <workItem from="1703850280821" duration="13968000" />
       <workItem from="1703896160164" duration="3700000" />
       <workItem from="1703962487731" duration="2446000" />
-      <workItem from="1703970663052" duration="1080000" />
+      <workItem from="1703970663052" duration="1297000" />
+      <workItem from="1703976212496" duration="789000" />
+      <workItem from="1703983024404" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="initial project upload">
       <option name="closed" value="true" />

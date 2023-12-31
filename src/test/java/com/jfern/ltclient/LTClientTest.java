@@ -83,7 +83,8 @@ class LTClientTest {
     @BeforeAll
     static void setUp() {
 
-        ltClient = new LTClient("http://10.30.10.30:8010", null, null);
+        //public languagetool server
+        ltClient = new LTClient("https://api.languagetool.org", null, null);
 
 
     }
