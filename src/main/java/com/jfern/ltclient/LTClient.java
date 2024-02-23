@@ -160,20 +160,31 @@ public class LTClient {
      * Does the same as {@link #check(String, String, String, String, String, String, String, String, String, String, String, String, Boolean, String) check}, but in Async mode. (returns a {@link CompletableFuture})
      * The possible exceptions must be handled when getting the result;
      *
-     * @param language
-     * @param text
-     * @param data
-     * @param username
-     * @param apiKey
-     * @param dicts
-     * @param motherTongue
-     * @param preferedVariants
-     * @param enabledRules
-     * @param disabledRules
-     * @param enabledCategories
-     * @param disabledCategries
-     * @param enabledOnly
-     * @param level
+     * @param language          A language code like en-US, de-DE, fr, or auto to guess the language automatically (see preferredVariants below). For languages with variants (English, German, Portuguese) spell checking will only be activated when you specify the variant, e.g. en-GB instead of just en.
+     * @param text              The text to be checked. This or 'data' is required.
+     * @param data              The text to be checked, given as a JSON document that specifies what's text and what's markup. This or 'text' is required. Markup will be ignored when looking for errors. Example text:
+     *                          A <b>test</b>
+     *                          JSON for the example text:
+     *                          {"annotation":[
+     *                          {"text": "A "},
+     *                          {"markup": "<b>"},
+     *                          {"text": "test"},
+     *                          {"markup": "</b>"}
+     *                          ]}
+     *                          If you have markup that should be interpreted as whitespace, like <p> in HTML, you can have it interpreted like this:
+     *                          {"markup": "<p>", "interpretAs": "\n\n"}
+     *                          The 'data' feature is not limited to HTML or XML, it can be used for any kind of markup. Entities will need to be expanded in this input.
+     * @param username          Set to get Premium API access: Your username/email as used to log in at languagetool.org.
+     * @param apiKey            Set to get Premium API access: your API key
+     * @param dicts             Comma-separated list of dictionaries to include words from; uses special default dictionary if this is unset
+     * @param motherTongue      A language code of the user's native language, enabling false friends checks for some language pairs.
+     * @param preferedVariants  Comma-separated list of preferred language variants. The language detector used with language=auto can detect e.g. English, but it cannot decide whether British English or American English is used. Thus this parameter can be used to specify the preferred variants like en-GB and de-AT. Only available with language=auto. You should set variants for at least German and English, as otherwise the spell checking will not work for those, as no spelling dictionary can be selected for just en or de.
+     * @param enabledRules      IDs of rules to be enabled, comma-separated. Note that 'level' still applies, so the rule won't run unless 'level' is set to a level that activates the rule.
+     * @param disabledRules     IDs of rules to be disabled, comma-separated
+     * @param enabledCategories IDs of categories to be enabled, comma-separated
+     * @param disabledCategries IDs of categories to be disabled, comma-separated
+     * @param enabledOnly       If true, only the rules and categories whose IDs are specified with enabledRules or enabledCategories are enabled.
+     * @param level             (default;picky)If set to picky, additional rules will be activated, i.e. rules that you might only find useful when checking formal text.
      * @return CompletableFuture
      */
     public CompletableFuture<HttpResponse<Supplier<LTResponse>>> checkAsync(String language, String text, String data, String username, String apiKey, String dicts, String motherTongue, String preferedVariants, String enabledRules, String disabledRules, String enabledCategories, String disabledCategries, Boolean enabledOnly, String level) {

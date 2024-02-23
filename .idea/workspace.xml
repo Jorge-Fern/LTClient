@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efd6b2-3c6c-436b-8da9-f419d628e724" name="Changes" comment="final changes for first release">
+    <list default="true" id="d8efd6b2-3c6c-436b-8da9-f419d628e724" name="Changes" comment="updated javadoc and changed test server to use the public free server hosted by Languagetool.org">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_2023,_19_13_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_2023__19_13__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jfern/ltclient/LTClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jfern/ltclient/LTClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jfern/ltclient/LTClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jfern/ltclient/LTClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
         <option name="downloadAnnotationsAutomatically" value="true" />
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
       </MavenImportingSettings>
     </option>
     <option name="enabledProfiles">
@@ -86,13 +89,13 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jorgegoncalves/IdeaProjects/LTClient/src/main/java/com",
+    "last_opened_file_path": "/home/jorge/IdeaProjects/LTClient",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git",
@@ -178,7 +181,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-temurin-17.0.9-f644763e9732-9d029893" />
+        <option value="jdk-17.0.10-temurin-17.0.10-f644763e9732-3893620f" />
+        <option value="jdk-17.0.9-temurin-17.0.9-4caba194b151-2f65f212" />
       </set>
     </attachedChunks>
   </component>
@@ -199,7 +203,8 @@
       <workItem from="1703962487731" duration="2446000" />
       <workItem from="1703970663052" duration="1297000" />
       <workItem from="1703976212496" duration="789000" />
-      <workItem from="1703983024404" duration="1535000" />
+      <workItem from="1703983024404" duration="2972000" />
+      <workItem from="1708727128830" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="initial project upload">
       <option name="closed" value="true" />
@@ -257,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703971107707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated javadoc and changed test server to use the public free server hosted by Languagetool.org">
+      <option name="closed" value="true" />
+      <created>1703984681856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703984681856</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +295,7 @@
     <MESSAGE value="added unit tests" />
     <MESSAGE value="added some plugins needed for deploying to maven" />
     <MESSAGE value="final changes for first release" />
-    <option name="LAST_COMMIT_MESSAGE" value="final changes for first release" />
+    <MESSAGE value="updated javadoc and changed test server to use the public free server hosted by Languagetool.org" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated javadoc and changed test server to use the public free server hosted by Languagetool.org" />
   </component>
 </project>
