@@ -140,12 +140,6 @@
     <profiles>
         <profile>
             <id>release</id>
-            <activation>
-                <property>
-                    <name>performRelease</name>
-                    <value>true</value>
-                </property>
-            </activation>
             <build>
                 <plugins>
                     <plugin>
@@ -160,9 +154,6 @@
                                 </goals>
                             </execution>
                         </executions>
-                        <configuration>
-                            <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
-                        </configuration>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
