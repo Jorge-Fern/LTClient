@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8efd6b2-3c6c-436b-8da9-f419d628e724" name="Changes" comment="updated missing documentation">
+    <list default="true" id="d8efd6b2-3c6c-436b-8da9-f419d628e724" name="Changes" comment="added snapshot repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -85,7 +85,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jorge/IdeaProjects/LTClient",
+    "last_opened_file_path": "/home/jorge/IdeaProjects/SIA-DCS-server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,7 +94,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -274,7 +274,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708728659064</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bumped version">
+      <option name="closed" value="true" />
+      <created>1708729557815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708729557815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added snapshot repository">
+      <option name="closed" value="true" />
+      <created>1708776301987</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708776301987</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +317,8 @@
     <MESSAGE value="final changes for first release" />
     <MESSAGE value="updated javadoc and changed test server to use the public free server hosted by Languagetool.org" />
     <MESSAGE value="updated missing documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated missing documentation" />
+    <MESSAGE value="bumped version" />
+    <MESSAGE value="added snapshot repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="added snapshot repository" />
   </component>
 </project>
