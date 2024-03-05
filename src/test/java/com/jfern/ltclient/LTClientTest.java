@@ -31,6 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
 import java.net.http.HttpResponse;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -74,7 +75,12 @@ class LTClientTest {
 
     @Test
     void check() {
-        LTResponse response = ltClient.check("pt-PT", "TExto");
+        LTResponse response = null;
+        try {
+            response = ltClient.check("pt-PT", "TExto");
+        } catch (IOException | InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
         assertNotNull(response);
         System.out.println(response.getSoftware().getName() + " - " + response.getSoftware().getVersion());

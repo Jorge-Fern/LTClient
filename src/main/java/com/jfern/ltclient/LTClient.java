@@ -121,37 +121,30 @@ public class LTClient {
      * @param level             (default;picky)If set to picky, additional rules will be activated, i.e. rules that you might only find useful when checking formal text.
      * @return LTRresponse object representing the response info.
      */
-    public LTResponse check(String language, String text, String data, String username, String apiKey, String dicts, String motherTongue, String preferedVariants, String enabledRules, String disabledRules, String enabledCategories, String disabledCategries, Boolean enabledOnly, String level) {
+    public LTResponse check(String language, String text, String data, String username, String apiKey, String dicts, String motherTongue, String preferedVariants, String enabledRules, String disabledRules, String enabledCategories, String disabledCategries, Boolean enabledOnly, String level) throws IOException, InterruptedException {
 
 
         //convert params to urlencoded string
         String formData = getFormData(language, text, data, username, apiKey, dicts, motherTongue, preferedVariants, enabledRules, disabledRules, enabledCategories, disabledCategries, enabledOnly, level);
 
 
-        try {
-            HttpRequest request = HttpRequest.newBuilder().uri(URI.create(SERVER_URL + "/v2/check"))
-                    .header("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
-                    .header("Accept", "application/json")
-                    .POST(HttpRequest.BodyPublishers.ofString(formData))
-                    .build();
+        HttpRequest request = HttpRequest.newBuilder().uri(URI.create(SERVER_URL + "/v2/check"))
+                .header("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
+                .header("Accept", "application/json")
+                .POST(HttpRequest.BodyPublishers.ofString(formData))
+                .build();
 
-            var response = httpClient.send(request, new JsonBodyHandler<>(LTResponse.class));
+        var response = httpClient.send(request, new JsonBodyHandler<>(LTResponse.class));
 
-            if (response.statusCode() == HttpURLConnection.HTTP_OK) {
-                return response.body().get();
+        if (response.statusCode() == HttpURLConnection.HTTP_OK) {
+            return response.body().get();
 
 
-            } else {
-                log.error("error:" + response.statusCode());
-            }
-        } catch (IOException e) {
-            log.error("error: ", e);
-        } catch (InterruptedException e) {
-            // Handle the exception here...
-            log.error("error: ", e);
+        } else {
+            log.error("error:" + response.statusCode());
+            throw new ConnectException("error code: "+response.statusCode());
+
         }
-
-        return null;
 
     }
 
@@ -214,7 +207,7 @@ public class LTClient {
      * @param text     The text to be checked.
      * @return Object representing the response from server
      */
-    public LTResponse check(@NonNull String language, @NonNull String text) {
+    public LTResponse check(@NonNull String language, @NonNull String text) throws IOException, InterruptedException {
         return this.check(language,
                 text,
                 null,
